@@ -68,9 +68,9 @@ body {
 
   /*----------- Color ------------*/
   color: white;
-  background-image: url('../assets/images/header-img.jpg');
+  /*background-image: url('../assets/images/header-img.jpg');*/
   background-size: contain;
-  /*background-color: black;*/
+  background-color: black;
 }
 
 .flex-main-carousel {
@@ -82,6 +82,13 @@ body {
 
   /*----------- Color ------------*/
   background-color: white;
+}
+
+.logo {
+  height: 18vh;
+  width: 18vw;
+  margin-left: -20vw;
+  margin-top: 1vh;
 }
 
 .nav-item {
