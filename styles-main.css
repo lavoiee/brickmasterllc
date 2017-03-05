@@ -1,4 +1,7 @@
-
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -174,14 +177,49 @@ a {
   flex: 1;
   height: 76vh;
 
+  /*-------- Positioning ----------*/
   margin: auto;
 
   /*----------- Color ------------*/
   background-color: white;
 }
 
+.flex-img-gallery {
+  /*------- Flexbox Support -------*/
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  /*-------- Dimensions -----------*/
+  height: auto;
+
+  /*----------- Color ------------*/
+  background-color: lightgrey;
+}
+
+.gallery-img {
+  /*-------- Dimensions -----------*/
+  height: 20rem;
+  width: 20rem;
+
+  /*-------- Positioning ----------*/
+  margin: 0.5vh;
+
+  /*----------- Color ------------*/
+  background-color: white;
+
+}
+
 .flex-content-main {
+  /*------- Flexbox Support -------*/
   flex: 2;
+
+  /*-------- Dimensions -----------*/
   height: 76vh;
 
   /*----------- Color ------------*/
@@ -189,6 +227,7 @@ a {
 }
 
 .slider-img {
+  /*-------- Dimensions -----------*/
   height: auto;
   width: auto;
 }
