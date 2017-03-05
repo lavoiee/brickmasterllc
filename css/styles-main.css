@@ -68,7 +68,7 @@ body {
 
   /*----------- Color ------------*/
   color: white;
-  background-image: url('assets/images/header-img.jpg');
+  background-image: url('../assets/images/header-img.jpg');
   background-size: contain;
   /*background-color: black;*/
 }
